@@ -1,7 +1,9 @@
 function descricaoElements () {
   return `
   <div class="descricao">
-    <img src="${capa}" alt="${capa}" class="descricao__capa">
+    <div class="descricao__capa">
+      <img src="${capa}" alt="${capa}">
+    </div>
     <div class="descricao__itens">
       <div class="descricao__text">
         <p>${sinopse}</p>
@@ -23,10 +25,10 @@ function descricaoElements () {
         <div class="descricao__ano">
           <span class="ano">${ano}</span>
         </div>
-        <div class="descricao__buttons">
-          <button lass="buttons__play">${btnSerie}</button>
-          <button lass="buttons__trailer">${btnTrailer}</button>
-        </div>
+      </div>
+      <div class="descricao__buttons">
+        <button lass="buttons__play">${btnSerie}</button>
+        <button lass="buttons__trailer">${btnTrailer}</button>
       </div>
     </div>
   </div>
