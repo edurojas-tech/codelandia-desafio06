@@ -1,7 +1,1 @@
-const { nome, title, sinopse, tempo, ano, capa, btnSerie, btnTrailer } = dados;
-
-const elements = [
-  titlesElements(title, nome), 
-  descricaoElements(dados)];
-const root = document.getElementById("root");
-root.innerHTML = elements.join("");
+const{nome:nome,title:title,sinopse:sinopse,tempo:tempo,ano:ano,capa:capa,btnSerie:btnSerie,btnTrailer:btnTrailer}=dados,elements=[titlesElements(title,nome),descricaoElements(dados)],root=document.getElementById("root");root.innerHTML=elements.join("");
