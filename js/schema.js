@@ -8,5 +8,5 @@ const dados = {
   ano: 2021,
   btnTrailer: "TRAILER",
   btnSerie: "ASSISTIR AGORA",
-  capa: "./assets/img/capa.png" 
+  capa: "./assets/img/capa.webp",
 };
