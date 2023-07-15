@@ -1,8 +1,1 @@
-function titlesElements(title, nome) {
-  return `
-  <div class="titles">
-    <h2 class="titles__info">${title}</h2>
-    <h1 class="titles__title">${nome}</h1>
-  </div>
-  `
-}
+function titlesElements(t,s){return`\n  <div class="titles">\n    <h2 class="titles__info">${t}</h2>\n    <h1 class="titles__title">${s}</h1>\n  </div>\n  `}

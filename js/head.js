@@ -1,9 +1,1 @@
-const headElement = `
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loki</title>
-  <link rel="stylesheet" href="./css/body.css">
-`
-const headId = document.querySelector("#headPage")
-headId.innerHTML = headElement
+const headElement='\n  <meta charset="UTF-8">\n  <meta http-equiv="X-UA-Compatible" content="IE=edge">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n  <title>Loki</title>\n  <link rel="stylesheet" href="./css/body.css">\n',headId=document.querySelector("#headPage");headId.innerHTML=headElement;
